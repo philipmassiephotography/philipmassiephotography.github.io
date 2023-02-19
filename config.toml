@@ -13,10 +13,14 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 
 [Params]
+  # Google Analytics 4
+  googleAnalyticsID = "G-YWD5R59K2C"
+  selfHosted = true
+  custom_css = ["css/custom.css"]
   homeTitle = " " # Set a different text for the header on the home page
   subtitle = ""
   mainSections = ["post","posts"]
-  logo = "20230103_091113-219_baardkeerdersbos.jpg" # Expecting square dimensions
+#  logo = "20230103_091113-219_baardkeerdersbos.jpg" # Expecting square dimensions
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
@@ -32,16 +36,8 @@ pygmentsCodefencesGuessSyntax = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 #[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#  # position: see values of CSS background-position.
-#  position = "center top"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
+#  src = "img/20230105_195926-640_baardkeerdersbos.jpg"
+#  position = "left top"
 
 [Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
@@ -51,10 +47,10 @@ pygmentsCodefencesGuessSyntax = true
 #  facebook = ""
   instagram = "philmassie"
 
-[[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 3
+#[[menu.main]]
+#    name = "Blog"
+#    url = ""
+#    weight = 3
 
 [[menu.main]]
     name = "About"
@@ -90,3 +86,20 @@ pygmentsCodefencesGuessSyntax = true
     name = "Insects"
     url = "portfolio/insects"
     weight = 4
+
+[[menu.main]]
+    identifier = "products"
+    name = "Products"
+    url = "products/"
+    weight = 3
+
+[[menu.main]]
+    parent = "products"
+    name = "coaster sets"
+    url = "products/coaster_sets"
+    weight = 4
+[[menu.main]]
+    parent = "products"
+    name = "calendars"
+    url = "products/calendars"
+    weight = 5
