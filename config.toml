@@ -1,0 +1,92 @@
+baseURL = "https://philipmassiephotography.github.io"
+title = "Philip Massie Photography"
+theme = "beautifulhugo"
+DefaultContentLanguage = "en"
+
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  homeTitle = " " # Set a different text for the header on the home page
+  subtitle = ""
+  mainSections = ["post","posts"]
+  logo = "20230103_091113-219_baardkeerdersbos.jpg" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = false
+  readingTime = false
+  wordCount = false
+  useHLJS = true
+  socialShare = false
+  delayDisqus = true
+  showRelatedPosts = true
+  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "Philip Massie"
+  website = "https://philipmassiephotography.github.io"
+  email = "philipmassiephotography@gmail.com"
+#  facebook = ""
+  instagram = "philmassie"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "portfolio/"
+    weight = 2
+
+[[menu.main]]
+    parent = "portfolio"
+    name = "Birds"
+    url = "portfolio/birds"
+    weight = 1
+
+[[menu.main]]
+    parent = "portfolio"
+    name = "Butterflies"
+    url = "portfolio/butterflies"
+    weight = 2
+
+[[menu.main]]
+    parent = "portfolio"
+    name = "Flowers"
+    url = "portfolio/flowers"
+    weight = 3
+
+[[menu.main]]
+    parent = "portfolio"
+    name = "Insects"
+    url = "portfolio/insects"
+    weight = 4
