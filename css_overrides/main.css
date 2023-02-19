@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 18px;
+  font-size: 14px;
   color: #404040;
   position: relative;
   background: #FFF;
@@ -168,7 +168,7 @@ figure:not(.dark) img, img.white {
 }
 
 .navbar-custom .nav li a {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 12px;
   letter-spacing: 1px;
 }
@@ -431,9 +431,10 @@ footer .theme-by {
 }
 
 .post-preview .post-title {
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 0;
 }
+
 .post-preview .post-subtitle {
   margin: 0;
   font-weight: 300;
@@ -443,7 +444,7 @@ footer .theme-by {
 .post-heading .post-meta,
 .page-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 14px;
   font-style: italic;
   margin: 0 0 10px;
 }
@@ -489,7 +490,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
-    font-size: 36px;
+    font-size: 20px;
   }
 }
 
@@ -590,15 +591,15 @@ footer .theme-by {
 .intro-header .tags-heading h1,
 .intro-header .categories-heading h1 {
   margin-top: 0;
-  font-size: 50px;
+  font-size: 30px;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
-  font-size: 35px;
+  font-size: 30px;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 27px;
+  font-size: 18px;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -645,7 +646,7 @@ footer .theme-by {
   .intro-header .page-heading h1,
   .intro-header .tags-heading h1,
   .intro-header .categories-heading h1 {
-    font-size: 80px;
+    font-size: 45px;
   }
   .intro-header .post-heading h1 {
     font-size: 50px;
@@ -703,7 +704,7 @@ footer .theme-by {
 
 .pager li a {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 14px;
   font-weight: 800;
   letter-spacing: 1px;
@@ -837,7 +838,7 @@ div.splitbox div.right {
 /* Delayed Disqus */
 .disqus-comments button {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 14px;
   font-weight: 800;
   letter-spacing: 1px;
@@ -945,3 +946,6 @@ h4.see-also {
     overflow-x: auto;
     overflow-y: hidden;
   }
+
+
+
